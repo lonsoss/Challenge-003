@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*** Fonts ***/
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("/Fonts/OpenSauceSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/Fonts/OpenSans-Light.ttf");
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position-y: 10%;
+}
+
+.container{
+    width: 72rem;
+    position: absolute;
+    transform: translateY(-50%);
+    left: 150px;
+    top: 50%;
+    color: white;
+}
+
+.container h1{
+    font-size: 4.5rem;
+    font-family: "Open Sauce Sans";
+    font-weight: 100;
+    margin-bottom: 3rem;
+}
+
+.container p{
+    font-size: 2.4rem;
+    font-family: 'Open Sans';
+    line-height: 130%;
+    opacity: .8;
+}
